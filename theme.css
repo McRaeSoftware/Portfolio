@@ -1,3 +1,37 @@
+body
+{
+  animation-direction: normal;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: gradient;
+  animation-timing-function: ease;
+	background: linear-gradient(-45deg, Red, #000000, #1a1a1a, #b6b6b6, #17a2b8, #23d5ab);
+	background-size: 400% 400%;
+  color: white; /* text colour */
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  min-height: 100vh; /* minimum height of bosy = screen height */
+  overflow: hidden; /* no scroll bars */
+}
+
+/* gradient animation movement */
+@keyframes gradient
+{
+	0%
+  {
+		background-position: 0% 50%;
+	}
+	50%
+  {
+		background-position: 100% 50%;
+	}
+	100%
+  {
+		background-position: 100% 50%;
+	}
+}
+
+/* Rows and Columns */
 .row
 {
   display: flex;
@@ -21,4 +55,29 @@
 {
   text-align: center;
   width:100%;
+}
+
+/* Buttons */
+.btn
+{
+  border: 2px solid black;
+  background-color: Transparent;;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+/* Gray */
+.white
+{
+  border-color: #e7e7e7;
+  color: White;
+}
+
+.white:hover
+{
+  background: #e7e7e7;
+  color: Black;
 }
