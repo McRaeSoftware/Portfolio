@@ -13,20 +13,24 @@
 
 </div>
 <div class="row">
-  <h4><i class="fab fa-github"></i> <a href="https://github.com/McRaeSoftware">GitHub</a></h4></br>
+  <h4><i class="fab fa-github"></i> <a href="https://github.com/McRaeSoftware" target="_blank">GitHub</a></h4></br>
 </div>
 <div class="row">
-  <h4><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/David-McRae-Software">LinkedIn</a></h4>
+  <h4><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/David-McRae-Software" target="_blank">LinkedIn</a></h4>
 </div>
 
 
-
+<!-- Button to enter the portfolio page -->
 <div class="row">
   <div class="w50">
-    <button class="btn white">Portfolio</button>
+    <a class="btn white" href="portfolio.php">Portfolio</a>
   </div>
 </div>
 
+<!--
+footer for each page includes script for;
+  fontawesome
+-->
 <?php
   include 'footer.php';
 ?>

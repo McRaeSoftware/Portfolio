@@ -81,9 +81,10 @@ a:hover
   cursor: pointer;
   font-size: 16px;
   padding: 14px 28px;
+  text-decoration: none;
 }
 
-/* Gray */
+/* white */
 .white
 {
   border-color: #e7e7e7;
