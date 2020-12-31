@@ -12,9 +12,6 @@
     <link rel="icon" href="Images/McRaeChevron.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
 
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/fac0cbcd08.js" crossorigin="anonymous"></script>
-
     <!-- Custom Css -->
     <style>
     <?php include 'theme.css'; ?>

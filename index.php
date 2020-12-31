@@ -7,21 +7,20 @@
 
   <div class="w50">
     <h1 class="text-light">David McRae</h1>
-    <hr />
+    <hr>
     <h2>Links</h2>
   </div>
 
 </div>
-<div class="row">
-  <h4><i class="fab fa-github"></i> <a href="https://github.com/McRaeSoftware" target="_blank">GitHub</a></h4></br>
+<div class="center">
+  <i class="fab fa-github fa-3x"></i><h4 class="m0"><a href="https://github.com/McRaeSoftware" target="_blank">GitHub</a></h4></br>
 </div>
-<div class="row">
-  <h4><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/David-McRae-Software" target="_blank">LinkedIn</a></h4>
+<div class="center">
+  <i class="fab fa-linkedin fa-3x"></i><h4 class="m0"><a href="https://linkedin.com/in/David-McRae-Software" target="_blank">LinkedIn</a></h4>
 </div>
-
 
 <!-- Button to enter the portfolio page -->
-<div class="row">
+<div class="row pt5">
   <div class="w50">
     <a class="btn white" href="portfolio.php">Portfolio</a>
   </div>

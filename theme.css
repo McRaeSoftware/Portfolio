@@ -55,6 +55,28 @@ body
   width:100%;
 }
 
+.center
+{
+  text-align: center;
+}
+
+.m0
+{
+  margin: 0;
+}
+
+.p0
+{
+  padding: 0;
+}
+
+.pt5
+{
+  padding-top: 5rem;
+}
+
+
+
 a
 {
   color: #23d5ab;

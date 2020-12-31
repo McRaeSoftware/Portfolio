@@ -1,0 +1,9 @@
+#Exclude specific Files;
+*connection.php
+
+#Exclude Directories
+*/Images
+
+#Exclude Files with extension;
+*.dbd
+*.sql
