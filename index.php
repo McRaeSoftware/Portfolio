@@ -1,8 +1,24 @@
 <html>
 <?php
-  include 'header.php';
+  include 'Model/connection.php';
 ?>
-<body>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- image for tabs in browser -->
+    <link rel="icon" href="Images/McRaeChevron.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
+
+    <!-- Custom Css -->
+    <style>
+    <?php include 'Model/theme.css'; ?>
+    </style>
+</head>
+
+<body id="welcome">
 <div class="row">
 
   <div class="w50">
@@ -22,18 +38,20 @@
 <!-- Button to enter the portfolio page -->
 <div class="row pt5">
   <div class="w50">
-    <a class="btn white" href="portfolio.php">Portfolio</a>
+    <a class="btn white" href="View/portfolio.php">Portfolio</a>
   </div>
 </div>
 
-<!--
-footer for each page includes script for;
-  fontawesome
--->
 <?php
-  include 'footer.php';
 ?>
 
+<!-- Footer -->
+<footer class="row">
+  DNS server by © <a href="http://freedns.afraid.org/">Free DNS</a>
+</footer>
+
+<!-- Fontawesome -->
+<script src="https://kit.fontawesome.com/fac0cbcd08.js" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
 </body>

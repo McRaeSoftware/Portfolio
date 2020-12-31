@@ -2,7 +2,7 @@
 connection.php
 
 #Exclude Directories
-/Images
+*/Images
 
 #Exclude Files with extension;
 *.dbd

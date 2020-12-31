@@ -1,4 +1,4 @@
-body
+#welcome
 {
   animation-direction: normal;
   animation-duration: 7.5s;
@@ -8,6 +8,10 @@ body
   animation-timing-function: ease;
 	background: linear-gradient(-45deg, Red, #000000, #1a1a1a, #b6b6b6, #17a2b8, #23d5ab); /* animation runs through colours from right to left */
 	background-size: 400% 400%;
+}
+
+body
+{
   color: white; /* text colour */
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   min-height: 100vh; /* minimum height of bosy = screen height */
