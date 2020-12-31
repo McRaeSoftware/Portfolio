@@ -1,8 +1,8 @@
 #Exclude specific Files;
-*connection.php
+connection.php
 
 #Exclude Directories
-*/Images
+/Images
 
 #Exclude Files with extension;
 *.dbd
