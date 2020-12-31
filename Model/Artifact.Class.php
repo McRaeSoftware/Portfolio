@@ -7,7 +7,7 @@ class Artifact extends Dbh
 
   public function GetAllArtifacts()
   {
-    $this->sql = "SELECT * FROM artifact";
+    $this->sql = "SELECT * FROM Artifact";
     $this->stmt = $this->Connect()->prepare($this->sql);
 
     $success = $this->stmt->execute();

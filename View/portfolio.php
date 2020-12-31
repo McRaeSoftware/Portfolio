@@ -1,7 +1,7 @@
 <html>
 <?php
-  include_once 'Model/connection.php';
-  include_once 'Model/Artifact.Class.php';
+  include_once '../Model/connection.php';
+  include_once '../Model/Artifact.Class.php';
   include_once 'header.php';
 
   $artifactObject = new Artifact;
@@ -9,7 +9,7 @@
 
   for($i = 0; $i < sizeof($artifacts);$i++)
   {
-    echo $artifacts[$i]->name;
+    echo $artifacts[$i]->Name;
   }
 
 
