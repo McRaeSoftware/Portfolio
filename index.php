@@ -16,6 +16,7 @@
     <style>
     <?php include 'Model/theme.css'; ?>
     </style>
+    <title>McRae - Portfolio</title>
 </head>
 
 <body id="welcome">
